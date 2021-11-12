@@ -5,7 +5,7 @@ public class Main {
         // At (10;20) fuel=100
         Tank anywareTank = new Tank(10, 10);
         // At (20;30) fuel=200
-        Tank customTank = new Tank(20, 30, 200);
+        Tank customTank = new Tank(20, 30, 205);
         justTank.goForward(200);
         justTank.printPosition();
         anywareTank.goBackward(-200);
